@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G4Gaming</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <style>
+        #slider {
+        overflow: hidden;
+    }
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+    }
+    #slider figure img {
+        width: 20%;
+        float: left;
+    }
+    
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+        45% {
+            left: -100%;
+        }
+        50% {
+            left: -200%;
+        }
+        70% {
+            left: -200%;
+        }
+        75% {
+            left: -300%;
+        }
+        95% {
+            left: -300%;
+        }
+        100% {
+            left: -400%;
+        }
+    }
+}
+
+    </style>
+
+
+        
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#" class="text-White text-3xl font-bold p-3">G4Gaming</a>
+               
+                <div class="container mx-auto justify-around flex p-2">
+                   
+                    <ul class="text-white sm:self-center text-xl border-transparent sm:border-none">
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-red-600">Home</a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-red-600">Games
+                        </a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-red-600">
+                           Blog
+                        </a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-red-600">
+                            Forums
+                        </a>
+                    </li>
+                    <li class="sm:inline-block">
+                        <a href="#" class="p-3 hover:text-red-600">
+                            Contact
+                        </a>
+                    </li>
+                   
+                
+                    </ul>
+                </div>
+                <li class="sm:inline-block"> 
+                    <a href="#" class="text-White text-xl font-bold p-3 bg-red-700 rounded-full hover:text-green-600">login/Register</a>
+                </li>
+            
+               </nav>
+              
+        
+        <main>
+            <div id="slider">
+                <figure>
+                    <img src="img/pubgg.png">
+                    <img src="img/Battle.jpg">
+                    <img src="img/overwatch.png">
+                    <img src="img/valorant.jpg">
+                </figure>
+                  
+            </div>
+                    
+                <div>
+            
+            <header>
+                <h2 class="text-gray-700 text-4xl font-semibold flex justify-center pb-8">Games</h2>
+               
+                
+            </header>
+            <div class="grid grid-cols-4">
+                <img src="img/pubg.png" alt="pubgg" class="w-30 h-60">
+                    <img src="img/battale.png" alt="pubgg" class="w-30 h-60">
+                    <img src="img/overwatch.jpg" alt="pubgg" class="w-30 h-60">
+                    <img src="img/valorant.png" alt="pubgg" class="w-30 h-60">
+                
+            </div>
+            
+            <div>
+                <h4 class="font-bold mt-12  border-gray-200 flex pl=8">Players</h4>
+                <div class="mt-8">
+                    <!-- cards go here -->
+                   
+                    </div>
+                </div>
+                
+                    <h4 class="font-bold mt-12 pb-2  border-gray-200">Teams</h4>
+                    <div class="mt-8">
+                    <!-- cards go here -->
+                </div>
+                <div>
+                    <h1  class="text-gray-600 text-xl font-bold pb-8">Latest Articles</h1>
+                    <div>
+                        <figure>
+                            <img src="img/pubgg.png" alt="pubgg" class="w-30 h-60 pb-6">
+                            <img src="img/Battle.jpg" alt="Battle" class="w-30 h-60 pb-6">
+                            <img src="img/overwatch.png" alt="overwatch" class="w-30 h-60 pb-6">
+                            <img src="img/valorant.jpg" alt="valorant" class="w-30 h-60 pb-6">
+                        </figure>
+
+                </div>
+                <div class="flex justify-center">
+                    <div class="text-gray-600 text-xl font-bold pb-8">Video content</div>
+
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/pubgg.png" alt="pubgg" class="w-30 h-40 pb-4">
+                        <img src="img/Battle.jpg" alt="Battle" class="w-30 h-40 pb-4">
+                        <img src="img/overwatch.png" alt="overwatch" class="w-30 h-40 pb-4">
+                        <img src="img/valorant.jpg" alt="valorant" class="w-30 h-40 pb-4">
+                    </figure>
+
+            </div>
+            
+        </main>
+
+    
+</body>
+</html>
